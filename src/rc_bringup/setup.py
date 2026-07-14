@@ -26,7 +26,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-        	'cmd_vel_to_vesc = rc_bringup.cmd_vel_to_vesc:main',
+            'cmd_vel_to_vesc = rc_bringup.cmd_vel_to_vesc:main',
+            'joy_safety_filter = rc_bringup.joy_safety_filter:main',
         ],
     },
 )
